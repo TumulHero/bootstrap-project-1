@@ -1,0 +1,207 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    
+    font-family: 'Montserrat', sans-serif;
+
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+}
+.hr-style{
+    margin: auto;
+    border: 8px dotted white;
+    border-bottom: none;
+    width: 50px;
+}
+.section-title h3{
+    font-size: 2vw;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+.navbar-brand img{
+    width: 80px;
+}
+/* header starts here */
+header{
+    background-image: url("header.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    
+}
+.banner-fluid{
+    height: 100vh;
+}
+.navbar{
+    
+    font-weight: bolder;
+    padding: 5% 10%;
+   background-color: rgba(0, 0, 0, 0.3);
+    
+    
+}
+.navbar-icon{
+    color: white;
+}
+.nav-link{
+    border-radius: 5px;
+    margin: 10px;
+    color: white;
+    transition: .4s;
+
+}
+.nav-link:hover{
+    background-color:#30E3CA;
+    
+    transform: scale(1.1);
+    
+    
+}
+.banner-content h1{
+    color: rgb(226, 9, 9);
+    font-weight: bolder;
+    font-size: 100px;
+    background-color:rgba(7, 101, 189, 0.2);
+    padding: 10px 200px;
+    font-family: 'Handlee', cursive;
+}
+
+/* header ends here */
+
+/* features start here */
+
+#features{
+    padding: 5% 10%;
+    background-color: #EDF1D6;
+}
+.feature-col{
+    
+    
+    border: solid 1px tomato ;
+    border-radius: 5px;
+    transition: .4s;
+    padding: 15px;
+    margin: 20px 0px;
+}
+.feature-col:hover{
+    background-color: #eeeeee98;
+    transform: scale(1.1);
+    box-shadow: 5px 2px 6px black;
+}
+.icon-style{
+    /* background-color: #30E3CA ; */
+    color: rgb(230, 230, 230);
+    padding: 20px;
+    margin: 5px 0;o
+    
+}
+
+/* features ends here */
+
+ /* about me starts here */ 
+
+#about-me{
+    background-color: #FFF4D2 ;
+    padding: 4% 10%;
+}
+#about-me p{
+    font-size: 0.9rem;
+    font-weight: lighter;
+    margin-bottom: 0;
+
+}
+#about-me a{
+    padding: 5px 20px;
+    font-size: 18px;
+    font-weight: lighter;
+    margin-top: 5px;
+    background: linear-gradient(red,tomato,red);
+}
+.acv-des span{
+    font-weight: lighter;
+    font-weight: 700 !important;
+}
+.icon-size{
+   
+}
+ /* about me ends here */ 
+
+ /* Tutorial Starts Here */
+
+#tutorial{
+    padding: 5% 5%;
+    background-color: #EEEEEE;
+}
+.card{
+   
+    border: 1px solid red;
+    box-shadow:  2px 6px 5px black;
+    margin: 10px;
+
+}
+
+
+ 
+ /* Tutorial Ends Here */
+
+ /* feedback starts here  */
+
+ #feedback{
+    padding: 5%;
+    background-color: #5eaaa8;
+ }
+
+ .img-feedback{
+    width: 300px;
+    height: auto;
+    margin-bottom: 5px;
+ }
+ .carousel-item{
+    text-align: center;
+    padding: 7% 15%;
+    font-style: italic;
+    font-size: 1.2rem;
+ }
+
+ /* feedback ends here  */
+
+ /* contact me starts here  */
+
+#contact-me{
+    padding: 2% 10%;
+    background-color:#5eaaa8;
+}
+#contact-me label{
+    margin-bottom: 0;
+    font-weight: bolder;
+}
+
+ /* contact me ends here  */
+
+ /* footer starts here  */
+footer{
+    padding: 1% 10%;
+    background-color: #056676;
+}
+footer a{
+    color: white;
+    margin: 0px 10px;
+   
+    
+}
+footer:hover{
+    
+    color: black;
+    background-color: black;
+}
+
+ /* footer ends here  */
+ @media (max-width:768px){
+    .nav-link{
+        background: rgba(0,0,0,0.7);
+    }
+    
+ }
